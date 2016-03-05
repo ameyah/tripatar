@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.easyroads.app.views.SquareImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/window" />
+
+    <com.easyroads.app.views.TypefacedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/thirty_two_dp"
+	    android:layout_marginLeft="@dimen/thirty_two_dp"
+	    android:drawableLeft="@mipmap/favorite_trip_icon"
+	    android:drawablePadding="@dimen/eight_dp"
+        android:text="1000"
+	    android:textSize="@dimen/sixteen_dp"
+	    android:textColor="@color/white"
+	    android:customTypeface="OpenSansRegular"/>
+
+	<com.easyroads.app.views.TypefacedTextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="@dimen/thirty_two_dp"
+		android:layout_marginLeft="@dimen/thirty_two_dp"
+		android:text="Coastel Madness - Goa"
+		android:textColor="@color/white"
+		android:textSize="@dimen/thirty_two_dp"
+		android:customTypeface="OpenSansRegular"/>
+
+	<com.easyroads.app.views.TypefacedTextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="@dimen/eight_dp"
+		android:layout_marginLeft="@dimen/thirty_two_dp"
+		android:text="Coastel Madness - Goa"
+		android:textColor="@color/white"
+		android:textSize="@dimen/sixteen_dp"
+		android:customTypeface="OpenSansRegular"/>
+
+</RelativeLayout>

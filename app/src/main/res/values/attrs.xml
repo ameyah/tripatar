@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="customTypeface" format="enum">
+		<enum name="OpenSansRegular" value="1"/>
+		<enum name="OpenSansLight" value="2"/>
+		<enum name="OpenSansSemiBold" value="3"/>
+		<enum name="OpenSansBold" value="4"/>
+		<enum name="MuseoRegular" value="5"/>
+		<enum name="MuseoLight" value="6"/>
+		<enum name="MuseoBold" value="7"/>
+	</attr>
+
+	<declare-styleable name="TypefacedTextView">
+		<attr name="customTypeface"/>
+	</declare-styleable>
+
+	<declare-styleable name="TypefacedEditText">
+		<attr name="customTypeface"/>
+	</declare-styleable>
+
+	<declare-styleable name="TypefacedButton">
+		<attr name="customTypeface"/>
+	</declare-styleable>
+
+	<declare-styleable name="SquareImageView">
+		<attr name="squareWith" format="enum">
+			<enum name="none" value="0"/>
+			<enum name="width" value="1"/>
+			<enum name="height" value="2"/>
+		</attr>
+	</declare-styleable>
+</resources>
