@@ -1,5 +1,37 @@
 <resources>
     <string name="app_name">Tripatar</string>
     <string name="parse_app_id">pUvhiCJw2HkaYDjIMlkYmtbOCaFzVvf4e56TPD4d</string>
-    <string name="parse_client_key">uYraybn6Ywf2MCw2Ymx873bNeEE5R61dxCinLBjp</string>
+    <string name="parse_client_key">5YScb2OcI8t7K4FhIFBv3iPOBYWwiKjdVXvuwnyp</string>
+    <string name="facebook_app_id">890207154410506</string>
+    <string name="title_activity_navigation">Navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_getaway_detail">GetawayDetail</string>
+    <string name="title_activity_all_getaways">AllGetaways</string>
+    <string name="title_activity_add_getaway">Add Getaway</string>
+
+    <string-array name="duration_array">
+        <item>1 Day 0 Night</item>
+        <item>2 Days 1 Night</item>
+        <item>3 Days 2 Nights</item>
+        <item>4 Days 3 Nights</item>
+        <item>5 Days 4 Nights</item>
+        <item>6 Days 5 Nights</item>
+        <item>7 Days 6 Nights</item>
+        <item>8 Days 7 Nights</item>
+    </string-array>
+
+    <string-array name="duration_values">
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>7200</item>
+        <item>8640</item>
+        <item>10080</item>
+        <item>11520</item>
+    </string-array>
 </resources>
